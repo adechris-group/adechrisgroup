@@ -291,10 +291,24 @@ display: block;
 .footer-menu ul li a:hover{
   color: #27bcda;
 }
-@media (max-width:500px) {
+@media only screen and (max-width: 600px) {
+  .logo{
+    height: 2em;
+  }
+  .sticky + .forreal {
+    margin-top: 60px;
+  }
   .footer-menu ul{
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
     }
+    .page{
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    .products{
+      padding-left: 2px;
+      padding-right: 2px;
   }
+}
